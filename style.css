@@ -381,26 +381,26 @@ p{
   background-color: var(--color-dark-white);
 }
 
-.testmonials{
+.testimonials{
   margin: 40px;
 }
 
-.testmonial{
+.testimonial{
   display: flex;
   margin: 32px 0;
 }
 
-.testmonial__avatar{
+.testimonial__avatar{
   width: 150px;
   height: 150px;
   border-radius: 50%;
   margin: 12px;
 }
 
-.testmonial__avatar:nth-child(odd){
+.testimonial__avatar:nth-child(odd){
   margin-right:40px;
 }
-.testmonial__avatar:nth-child(even){
+.testimonial__avatar:nth-child(even){
   margin-left:40px;
 }
 
