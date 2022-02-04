@@ -13,6 +13,7 @@
   /* Font size */
   --font-large : 48px;
   --font-medium : 28px;
+  --font-semi-medium: 23px;
   --font-regular : 18px;
   --font-small : 16px;
   --font-micro: 14px;
@@ -445,6 +446,7 @@ p{
   padding: 18px;
   background-color: var(--color-white);
   border-radius: var(--size-border-radius);
+  font-size: var(--font-semi-medium);
 }
 
 .testimonial__speech-bubble p {
