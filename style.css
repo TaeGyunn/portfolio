@@ -19,8 +19,9 @@
   --font-micro: 14px;
 
   /* Font weight*/
-
+  --weight-light:300;
   --weight-bold : 700;
+  --weight-meidum:500;
   --weight-semi-bold : 600;
   --weight-regular : 400;
 
@@ -38,7 +39,9 @@
 
 body{
   margin:0;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Roboto', sans-serif; 
+  /* font-family: 'Noto Sans KR', sans-serif;; */
   cursor: default;
 }
 
@@ -254,6 +257,11 @@ p{
   background-color: dimgray;
   color: var(--color-light-white);
   margin: 20px 0;
+}
+
+.skillset h3{
+  font-size: var(--font-medium);
+  font-weight: var(--weight-meidum);
 }
 
 .skillset__title{
