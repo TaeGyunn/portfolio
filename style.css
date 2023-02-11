@@ -109,13 +109,13 @@ p{
 }
 
 #navbar.navbar--dark{
-  background-color: var(--color-dark-white);
+  background-color: var(--color-white);
   padding: 8px;
 }
 
 .navbar__menu{
   display: flex;
-  color: var(--color-white);
+  color: var(--color-black);
 }
 .navbar__logo{
   font-size: var(--font-medium);
@@ -132,7 +132,7 @@ p{
 
 .navbar__menu__item:hover{
   border-color: var(--color-white);
-  background-color: var(--color-grey);
+  background-color: var(--color-white);
 }
 
 .navbar__toggle-btn{
@@ -160,7 +160,7 @@ p{
 
 .home__title,
 .home__description{
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 .home__contact{
