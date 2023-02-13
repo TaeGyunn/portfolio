@@ -231,7 +231,11 @@ p{
 .job__description{
   margin: 0 16px;
   text-align: left;
+}
 
+.job__title{
+  font-size: var(--font-regular);
+  font-weight: var(--weight-meidum);
 }
 
 .job__name,
